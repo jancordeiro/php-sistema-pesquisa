@@ -16,7 +16,7 @@
 	<div class="container">
 		<h2>Sistema de Pesquisa em PHP</h2><br>
 		<form action="">
-			<input type="text" placeholder="Pesquise um produto" name="busca">		
+			<input type="text" placeholder="Pesquise um produto" value ="<?php if(isset($_GET['busca'])) echo $_GET['busca'] ?>" name="busca">		
 			<button type="submit">Pesquisar</button>
 		</form><br>
 		<div>
