@@ -1,2 +1,3 @@
-# php-sistema-pesquisa
-Sistema de Pesquisa em PHP
+# Sistema de Pesquisa com PHP
+---
+Sistema simples de Pesquisa com PHP e MySQL.
